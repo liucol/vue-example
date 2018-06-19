@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="frontend" content="Jinlian">
+	<title></title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="stylesheet" type="text/css" href="static/css/style1.css">
+	<script type="text/javascript" src="static/js/jquery-3.2.0.min.js"></script>
+	<script type="text/javascript">
+		window['adaptive'].desinWidth = 640;
+		window['adaptive'].baseFont = 18;
+		window['adaptive'].maxWidth = 640;
+		window['adaptive'].scaleType = 3;
+		window['adaptive'].init();
+	</script>
+	<style>
+	   [v-load] {
+			display: none;
+	   }
+	</style>
+</head>
+
+<body>
+	<div class="wrapper" id="app" v-load>
+		<router-view>
+
+	    </router-view>
+	</div>
+</body>
+
+</html>
